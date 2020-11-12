@@ -1,0 +1,117 @@
+.html, body {
+    overflow-x:hidden
+  }
+  
+  .drum-container{
+    width:600px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color:#ccffff;
+    height:375px;
+    border:2px solid black;
+    border-radius:35px
+    
+  }
+  
+  .drum-container:hover{
+    border:2px solid #ff3300;
+  }
+  
+  
+  body {
+    color:black;
+    background-color:#66ccff;
+    font-family: 'Tomorrow', san-serif;
+    font-weight:bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position:relative
+    
+  }
+  
+  
+  
+  .button-element{
+    width:25%;
+    height:70px;
+   display:flex;
+   justify-content:center; 
+    align-items:center;
+   margin-bottom:5px; 
+    margin-right:5px; 
+    background-color:#ffffcc;
+    cursor:pointer;
+    border:1px solid grey;
+    border-radius:10px;
+    font-size:17px;
+    font-weight:bold
+  }
+  
+  .drum-pad:hover{
+    border:1px solid #ff3300;
+    color:#ff3300
+  }
+
+  .drum-pad:focus{
+    outline:none
+  }
+  
+  .display{
+    text-align:center;
+    font-size:25px;
+    font-weight:bold;
+    margin-top:15px;
+    padding-right:40px;
+    color:#ff3300;
+    width:100%;
+    
+  }
+  
+  .icon-position{
+    float:right;
+    font-size:40px;
+    margin-right:20px;
+  }
+  
+  
+  .signature{
+    font-size: 13px;
+    float:left;
+    padding-top:15px;
+    font-weight:900;
+    font-family: 'Indie Flower', cursive;
+    color:#ff3300
+  }
+  
+  .orange-border{
+    color:#ff3300;
+    border:1px solid #ff3300
+  }
+  
+  @media (max-width: 600px) {
+    .drum-container {
+      width:400px;
+      height:260px
+    }
+    
+    .button-element {
+      height:40px;
+      font-size:12px
+    }
+    
+    .display {
+      font-size:12px;
+  
+    }
+    
+    .icon-position {
+      font-size:20px;
+      margin-right:5%
+    }
+    
+    .signature {
+      padding-top:0px
+    }
+  }
